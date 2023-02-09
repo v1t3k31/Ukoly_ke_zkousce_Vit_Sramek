@@ -25,12 +25,6 @@ class Char():
     def increment(self):
         self.occurences = self.occurences + 1
 
-    #def setProcessed(self):
-    #    processed = 1
-
-    #def getProcessed(self): #tohle asi muzu dat pryc
-    #    return self.processed
-
     #vypise hodnotu cisla
     def getValue(self):
         return self.value
